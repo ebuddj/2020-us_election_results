@@ -8,6 +8,16 @@ The 2020 United States presidential election is scheduled for Tuesday, November 
 
 This animation shows how the electoral votes were casted in the election between 1992 and 2016.
 
+| Year | Winner name    | Winner party | Winner electoral votes | Runner-up name    | Runner-up party | Runner-up electoral votes |
+| ---- |--------------- | ------------- | --------------------- | ------------------| --------------- | ------------------------- |
+| 1992 | Bill Clinton   | D             | 370                   | George H. W. Bush | R               | 168                       |
+| 1996 | Bill Clinton   | D             | 379                   | Bob Dole          | R               | 159                       |
+| 2000 | George W. Bush | R             | 271                   | Al Gore           | D               | 266                       |
+| 2004 | George W. Bush | R             | 286                   | John Kerry        | D               | 251                       |
+| 2008 | Barack Obama   | D             | 365                   | John McCain       | R               | 173                       |
+| 2012 | Barack Obama   | D             | 332                   | Mitt Romney       | R               | 206                       |
+| 2016 | Donald Trump   | R             | 304                   | Hillary Clinton   | D               | 227                       |
+
 **Sources**
 * [Wikipedia – List of United States presidential election results by state](https://en.wikipedia.org/wiki/List_of_United_States_presidential_election_results_by_state)
 * [Wikipedia – United States presidential election](https://en.wikipedia.org/wiki/United_States_presidential_election)
