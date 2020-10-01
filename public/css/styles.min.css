@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500.css);
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.app___2khK2 {
+  display: none;
+}
+.app___2khK2 .meta_container___3p0xG {
+  background-color: rgba(255, 255, 255, 0.85);
+  font-family: Roboto;
+  left: 15px;
+  padding: 0 15px;
+  position: absolute;
+  top: 15px;
+  width: 200px;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO {
+  margin: 15px 0;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO h3 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO .label___2-olX {
+  font-size: 12px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO .value_container___3NA6i {
+  margin-bottom: 10px;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO .value_container___3NA6i .value___2L5q8 {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO .value_container___3NA6i .indicator___2VljI {
+  float: left;
+  margin-right: 5px;
+  display: inline-block;
+  height: 44px;
+  width: 15px;
+}
+.app___2khK2 .meta_container___3p0xG .meta_wrapper___3VYjO .value_container___3NA6i .votes___1joWF {
+  padding-left: 20px;
+}
+.app___2khK2 .chart_container___3Jzlm {
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 10px;
+  height: 200px;
+  left: 10px;
+  position: absolute;
+  width: 400px;
+}
+.app___2khK2 .background_container___3E2xX {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+/* General styles */
+.clearfix___1yHqr {
+  zoom: 1;
+}
+.clearfix___1yHqr:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.ss-terms___dMEZ6 {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.meta___3gcNx {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.clear_both___a0DL_ {
+  clear: both;
+}
+.hidden___1aMNf {
+  display: none;
+}
+.nowrap___2n1o8 {
+  white-space: nowrap;
+}
+

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500.css');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: none;
+  .meta_container {
+    background-color: rgba(255, 255, 255, 0.85);
+    font-family: Roboto;
+    left: 15px;
+    padding: 0 15px;
+    position: absolute;
+    top: 15px;
+    width: 200px;
+    .meta_wrapper {
+      margin: 15px 0;
+      h3 {
+        font-size: 24px;
+        margin: 0 0 10px 0;
+      }
+      .label {
+        font-size: 12px;
+        margin-bottom: 3px;
+        text-transform: uppercase;
+      }
+      .value_container {
+        margin-bottom: 10px;
+        .value {
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 500;
+          vertical-align: middle;
+        }
+        .indicator {
+          float: left;
+          margin-right: 5px;
+          display: inline-block;
+          height: 44px;
+          width: 15px;
+        }
+        .votes {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  .chart_container {
+    background-color: rgba(255, 255, 255, 0.5);
+    bottom: 10px;
+    height: 200px;
+    left: 10px;
+    position: absolute;
+    width: 400px;
+  }
+  .background_container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@import 'basics.less';
