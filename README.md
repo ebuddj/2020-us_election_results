@@ -2,7 +2,11 @@
 
 **Live demo** https://ebuddj.github.io/2020-us_election_results/
 
-## Project title
+## US President Election Results from 1992 to 2016
+
+The 2020 United States presidential election is scheduled for Tuesday, November 3, 2020. It will be the 59th quadrennial presidential election. 
+
+This animation shows how the electoral votes were casted in the election between 1992 and 2016.
 
 **Sources**
 * [Wikipedia – List of United States presidential election results by state](https://en.wikipedia.org/wiki/List_of_United_States_presidential_election_results_by_state)
