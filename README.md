@@ -6,7 +6,7 @@
 
 The 2020 United States presidential election is scheduled for Tuesday, November 3, 2020. It will be the 59th quadrennial presidential election. 
 
-This animation shows how the electoral votes were casted in the election between 1992 and 2016.
+This animation shows how the electoral votes were cast in the election between 1992 and 2016.
 
 | Year | Winner name    | Winner party | Winner electoral votes | Runner-up name    | Runner-up party | Runner-up electoral votes |
 | ---- | -------------- | ------------- | ---------------------:| ------------------| --------------- | -------------------------:|
