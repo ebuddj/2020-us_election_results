@@ -8,6 +8,7 @@ import * as d3 from 'd3';
 import Chart from 'chart.js';
 
 let path_prefix, chart, interval;
+let done = false;
 if (location.href.match('localhost')) {
   path_prefix = './';
 }
@@ -27,7 +28,8 @@ class App extends Component {
       current_data:{
         hurricanes:0
       },
-      'img_src':'ElectoralCollege1992.svg'
+      'img_src':'ElectoralCollege1992.svg',
+      meta_display:'none'
     }
   }
   componentDidMount() {
@@ -59,7 +61,6 @@ class App extends Component {
           label:'Republican'
         }]
       };
-      console.log(data)
       data.map((values, i) => {
         backgrounds.push(path_prefix + 'img/ElectoralCollege' + values.year + '.svg');
         bar_chart_data.labels.push(values.year);
@@ -78,10 +79,10 @@ class App extends Component {
           bar_chart_data.datasets[1].backgroundColor.push('rgba(240, 119, 99, 0.45)');
         }
       });
-      console.log(bar_chart_data)
       this.setState((state, props) => ({
         backgrounds:backgrounds,
-        data:{...data}
+        data:{...data},
+        data1:data
       }), this.createChart(bar_chart_data, data));
     });
   }
@@ -137,23 +138,32 @@ class App extends Component {
     this.createInterval(data);
   }
   handleClick(evt) {
-    clearInterval(interval);
     let active_element = chart.getElementAtEvent(evt)[0];
     if (active_element) {
       this.changeData(active_element._index, this.state.data[active_element._index])
     }
   }
   createInterval(data) {
+    let data_copy = JSON.parse(JSON.stringify(data));
     let i = 0;
     interval = setInterval(() => {
       this.appRef.current.style.display = 'block';
+      if (done === true) {
+        this.setState((state, props) => ({
+          meta_display:'block'
+        }));
+      }
       if (data[0]) {
         let current_data = data.shift();
         this.changeData(i, current_data);
         i++;
       }
-      else {
+      else if (done === false) {
+        done = true;
         clearInterval(interval);
+        setTimeout(() => {
+          this.createInterval(data_copy);
+        }, 2000);
       }
     }, 3500);
   }
@@ -180,7 +190,8 @@ class App extends Component {
   render() {
     return (
       <div className={style.app} ref={this.appRef}>
-        <div className={style.meta_container}>
+        <h1>{this.state.current_data.year} Election</h1>
+        <div className={style.meta_container} style={{display: this.state.meta_display}}>
           <div className={style.meta_wrapper}>
             <h3>{this.state.current_data.year} Election</h3>
             <div>
@@ -203,7 +214,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className={style.chart_container}>
+        <div className={style.chart_container} style={{display: this.state.meta_display}}>
           <canvas id={style.chart} ref={this.chartRef}></canvas>
         </div>
         <div className={style.hidden}>
