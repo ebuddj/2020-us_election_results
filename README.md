@@ -23,7 +23,7 @@ This animation shows how the electoral votes were cast in the election between 1
 * [Wikipedia – United States presidential election](https://en.wikipedia.org/wiki/United_States_presidential_election)
 
 **EBU links**
-* []()
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/90c2d863cfbb4824de269954e7b7f9fd/2020_21044913)
 
 **Used by**
 * []()
