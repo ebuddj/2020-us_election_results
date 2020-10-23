@@ -57,8 +57,8 @@ Big thanks to [Jonathan Stoneman](https://twitter.com/stonepeople) for the contr
 * [Citizen Voting-Age Population and Voting Rates for Congressional Districts: 2018](https://www.census.gov/data/tables/time-series/demo/voting-and-registration/congressional-voting-tables.html)
 * [Article: Biden supporters in states where it is hardest to vote by mail are most concerned about voting this fall](https://www.pewresearch.org/fact-tank/2020/08/26/biden-supporters-in-states-where-it-is-hardest-to-vote-by-mail-are-most-concerned-about-voting-this-fall/)
 * [Article: As states move to expand the practice, relatively few Americans have voted by mail](https://www.pewresearch.org/fact-tank/2020/06/24/as-states-move-to-expand-the-practice-relatively-few-americans-have-voted-by-mail/)
-* [CNN: Understanding mail-in voting in the US](https://edition.cnn.com/int.../2020/politics/mail-in-voting/)
-* [CNN: Record numbers are voting by mail. Here's when states can start processing those ballots.](https://edition.cnn.com/.../vote-by-mail.../index.html)
+* [CNN: Understanding mail-in voting in the US](https://edition.cnn.com/interactive/2020/politics/mail-in-voting/)
+* [CNN: Record numbers are voting by mail. Here's when states can start processing those ballots.](https://edition.cnn.com/2020/10/21/politics/vote-by-mail-processing-election-2020/index.html)
 * [MIT: How many votes will be counted after election night?](https://news.mit.edu/2020/votes-counted-after-election-1015)
 
 ## Healthcare Expenditure data
