@@ -58,7 +58,7 @@ class App extends Component {
         },{
           backgroundColor:[],
           data:[],
-          label:'Republican'
+          label:'R'
         }]
       };
       data.map((values, i) => {
@@ -122,7 +122,7 @@ class App extends Component {
             display:false,
             stacked:false,
             ticks: {
-              suggestedMin: 0
+              suggestedMin:0
             }
           }]
         },
